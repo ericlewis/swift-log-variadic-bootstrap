@@ -1,4 +1,5 @@
 # SwiftLogVariadicBootstrap
+[![Build & Test](https://github.com/ericlewis/swift-log-variadic-bootstrap/actions/workflows/ci.yml/badge.svg)](https://github.com/ericlewis/swift-log-variadic-bootstrap/actions/workflows/ci.yml)
 
 Variadic bootstrap function for [SwiftLog](https://github.com/apple/swift-log).
 
