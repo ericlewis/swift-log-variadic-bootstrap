@@ -12,7 +12,7 @@ Basically bridges `LoggingSystem.bootstrap()` arguments to a `MultiplexLogHandle
 `SwiftLogVariadicBootstrap` is designed for Swift 5. To use the handler, you need to declare your dependency in your `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/ericlewis/swift-log-variadic-bootstrap.git", from: "0.1.0"),
+.package(url: "https://github.com/ericlewis/swift-log-variadic-bootstrap.git", from: "1.0.0"),
 ```
 
 and to your application/library target, add `"VariadicBootstrap"` to your `dependencies`, e.g. like this:
