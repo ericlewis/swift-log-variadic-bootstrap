@@ -13,15 +13,11 @@ Variadic bootstrap function for [SwiftLog](https://github.com/apple/swift-log).
 .package(url: "https://github.com/ericlewis/swift-log-variadic-bootstrap.git", from: "0.1.0"),
 ```
 
-and to your application/library target, add `"SwiftLogVariadicBootstrap"` to your `dependencies`, e.g. like this:
+and to your application/library target, add `"VariadicBootstrap"` to your `dependencies`, e.g. like this:
 
 ```swift
-// Target syntax for Swift up to version 5.1
-.target(name: "BestExampleApp", dependencies: ["SwiftLogVariadicBootstrap"]),
-
-// Target for Swift 5.2
 .target(name: "BestExampleApp", dependencies: [
-    .product(name: "SwiftLogVariadicBootstrap", package: "swift-log-variadic-bootstrap")
+    .product(name: "VariadicBootstrap", package: "swift-log-variadic-bootstrap")
 ],
 ```
 
